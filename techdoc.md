@@ -2,6 +2,7 @@
 * No biasing on MIC-input
 * 10ohm, 10µF RC filtering for AVDD
 * See RB-RIM-Lite2 for IO-line filtering
+
 # Notes from [AllScan How To - Build a High-Quality Full-Duplex AllStar Node for Under $150](https://allscan.info/docs/diy-node.php)
 * [URI150-v1.11 schematic](https://allscan.info/images/URI150/URI150-v1.11-sch.png)
 * USB ferrite clamp : Laird 28A0350-0B2

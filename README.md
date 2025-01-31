@@ -12,6 +12,8 @@ The original design by Softcomplex can be found [here](https://github.com/softco
 6. Converting the design from KiCad to Altium, because that's my preferred PCB design software.
 
 # Use case
+Providing a USB interface for a HT or mobile radio to connect to a computer for digital modes like APRS, Packet Radio, etc.
+This device doesn't provide CAT control, only audio in/out and PTT.
 
 # Commercial
 I have no intention of selling these devices.  All the design data will be made open source which will allow others to recreate it without too much effort or cost.
