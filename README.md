@@ -10,7 +10,7 @@ The original design by Softcomplex can be found [here](https://github.com/softco
 4. Using aluminium enclosure instead of plastic, because it's easier to get.
 5. Adding LEDs to show TX and RX status.
 6. Converting the design from KiCad to Altium, because that's my preferred PCB design software.
-7. Add assembly option to use analog audio instead of digital audio over USB.  That will allow you to use the analog audio port from your laptop or desktop computer to connect to the radio.
+7. Add assembly option to use analog audio instead of digital audio over USB.  That will allow you to use the analog audio port from your laptop or microcontroller board to connect to the radio.
 
 # Use case
 Providing a USB interface for a HT or mobile radio to connect to a computer for digital modes like APRS, Packet Radio, etc.
