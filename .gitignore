@@ -1,3 +1,6 @@
+History/
 Project Logs */
 *.PrjPCBStructure
+*.SchDocPreview
+*.Harness
 
