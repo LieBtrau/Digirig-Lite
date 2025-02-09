@@ -9,6 +9,13 @@
 * HT-cable ferrite clamp : Fair-Rite 0446173951
 * On power supply :  Laird 28A2029-0A2
 
+# Pinout
+TRRS – 3.5mm TRRS audio connector for Radio.
+1. Tip = Speaker (audio input to TNC)
+2. Ring 1 = PTT (Simplex PTT mode)
+3. Ring 2 = Mic (and PTT in Multiplexed PTT mode)
+4. Sleeve = GND/Common
+
 # References
 1. [Online KiCad view of original Digirig-Lite design](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fsoftcomplex%2FDigirig-Lite%2Ftree%2Fmain%2Felectric)
 2. [CM108 Sound Fob Modifications for use with TxCR](https://www.nednet.org.uk/how_to/CM108_mod)
