@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -13,7 +13,7 @@ TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
-AllowSheetEntryNetNames=1
+AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
 DefaultConfiguration=Sources
@@ -235,7 +235,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -269,7 +269,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -301,24 +301,30 @@ UniqueId=D8054658-8A78-41E9-A510-4DBBA854E3A9
 Description=A
 AllowFabrication=1
 ParameterCount=0
-VariationCount=0
+VariationCount=6
+Variation1=Designator=R17|UniqueId=\NQPJKRZA|Kind=1|AlternatePart=
+Variation2=Designator=R25|UniqueId=\AUKOJLHZ\SKYSCMML|Kind=1|AlternatePart=
+Variation3=Designator=R26|UniqueId=\AUKOJLHZ\QHFMMBLT|Kind=1|AlternatePart=
+Variation4=Designator=R27|UniqueId=\AUKOJLHZ\ZIQIGACG|Kind=1|AlternatePart=
+Variation5=Designator=R28|UniqueId=\AUKOJLHZ\RBQZMDDG|Kind=1|AlternatePart=
+Variation6=Designator=Q3|UniqueId=\AUKOJLHZ\MVOFCXNZ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Project_link
-Value=https://github.com/LieBtrau/Digirig-Lite
+Name=assembly_revision
+Value=0
 
 [Parameter2]
-Name=board_revision
-Value=1.0
-
-[Parameter3]
 Name=board_name
 Value=DIGLITE
 
+[Parameter3]
+Name=board_revision
+Value=1.0
+
 [Parameter4]
-Name=assembly_revision
-Value=0
+Name=Project_link
+Value=https://github.com/LieBtrau/Digirig-Lite
 
 [Configuration1]
 Name=Sources
@@ -851,36 +857,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=MathWorks
-OutputName15=MathWorks (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Orcad v7 Capture Design
-OutputName16=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD ASCII
-OutputName17=P-CAD ASCII (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=P-CAD V16 Schematic Design
-OutputName18=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1140,7 +1116,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=2
 Type13=2
