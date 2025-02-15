@@ -301,13 +301,15 @@ UniqueId=D8054658-8A78-41E9-A510-4DBBA854E3A9
 Description=A
 AllowFabrication=1
 ParameterCount=0
-VariationCount=6
+VariationCount=8
 Variation1=Designator=R17|UniqueId=\NQPJKRZA|Kind=1|AlternatePart=
 Variation2=Designator=R25|UniqueId=\AUKOJLHZ\SKYSCMML|Kind=1|AlternatePart=
 Variation3=Designator=R26|UniqueId=\AUKOJLHZ\QHFMMBLT|Kind=1|AlternatePart=
 Variation4=Designator=R27|UniqueId=\AUKOJLHZ\ZIQIGACG|Kind=1|AlternatePart=
 Variation5=Designator=R28|UniqueId=\AUKOJLHZ\RBQZMDDG|Kind=1|AlternatePart=
 Variation6=Designator=Q3|UniqueId=\AUKOJLHZ\MVOFCXNZ|Kind=1|AlternatePart=
+Variation7=Designator=R29|UniqueId=\AUKOJLHZ\OQLSLWEW|Kind=1|AlternatePart=
+Variation8=Designator=R30|UniqueId=\AUKOJLHZ\KAJKZDVM|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
@@ -1310,7 +1312,7 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0

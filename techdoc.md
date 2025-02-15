@@ -16,6 +16,13 @@ TRRS – 3.5mm TRRS audio connector for Radio.
 3. Ring 2 = Mic (and PTT in Multiplexed PTT mode)
 4. Sleeve = GND/Common
 
+# Enclosure
+* [80x50x20mm](https://www.aliexpress.com/item/1005006828585850.html) : €1.96/pce
+* [25x40x80mm](https://www.aliexpress.com/item/1005007115490142.html) : size 3, group A : €5.21/pce
+
+# LED-indicators
+It's not fully clear from the CM108B datasheet what the status of the GPIO and LEDs is.  Moreover, because of the narrow package, it's not easy to add some LEDs on the front and the back on the same PCB.  An FFC-connector will be added, allowing for great flexibility in the design of the front and back panel.
+
 # References
 1. [Online KiCad view of original Digirig-Lite design](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fsoftcomplex%2FDigirig-Lite%2Ftree%2Fmain%2Felectric)
 2. [CM108 Sound Fob Modifications for use with TxCR](https://www.nednet.org.uk/how_to/CM108_mod)
