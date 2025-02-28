@@ -301,16 +301,19 @@ UniqueId=D8054658-8A78-41E9-A510-4DBBA854E3A9
 Description=A
 AllowFabrication=1
 ParameterCount=0
-VariationCount=8
+VariationCount=7
 Variation1=Designator=R17|UniqueId=\NQPJKRZA|Kind=1|AlternatePart=
 Variation2=Designator=R25|UniqueId=\AUKOJLHZ\SKYSCMML|Kind=1|AlternatePart=
 Variation3=Designator=R26|UniqueId=\AUKOJLHZ\QHFMMBLT|Kind=1|AlternatePart=
 Variation4=Designator=R27|UniqueId=\AUKOJLHZ\ZIQIGACG|Kind=1|AlternatePart=
 Variation5=Designator=R28|UniqueId=\AUKOJLHZ\RBQZMDDG|Kind=1|AlternatePart=
-Variation6=Designator=Q3|UniqueId=\AUKOJLHZ\MVOFCXNZ|Kind=1|AlternatePart=
-Variation7=Designator=R29|UniqueId=\AUKOJLHZ\OQLSLWEW|Kind=1|AlternatePart=
-Variation8=Designator=R30|UniqueId=\AUKOJLHZ\KAJKZDVM|Kind=1|AlternatePart=
+Variation6=Designator=R29|UniqueId=\AUKOJLHZ\OQLSLWEW|Kind=1|AlternatePart=
+Variation7=Designator=R30|UniqueId=\AUKOJLHZ\KAJKZDVM|Kind=1|AlternatePart=
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DIGLITE\Design Rule Check - DIGLITE.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=assembly_revision
@@ -859,6 +862,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
