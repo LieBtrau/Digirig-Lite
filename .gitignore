@@ -1,6 +1,12 @@
+# Altium
 History/
 Project Logs */
+Project Outputs */
 *.PrjPCBStructure
 *.SchDocPreview
 *.Harness
+
+# LTSpice
+*.log
+*.raw
 
