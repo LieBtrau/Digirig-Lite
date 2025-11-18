@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Assembly.OutJob
+Name=
 Description=
 TargetOutputMedium=Manufacturing output (BOM and PnP)
 VariantName=A
